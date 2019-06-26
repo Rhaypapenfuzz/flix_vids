@@ -1,4 +1,4 @@
-# Project 2 - * flix_vids*
+# Project 2 - *flix_vids*
 
 **flix_vids** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
