@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0E3E630322C3EDAD007709C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E630222C3EDAD007709C7 /* AppDelegate.m */; };
-		0E3E630622C3EDAD007709C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E630522C3EDAD007709C7 /* ViewController.m */; };
 		0E3E630922C3EDAD007709C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3E630722C3EDAD007709C7 /* Main.storyboard */; };
 		0E3E630B22C3EDAE007709C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3E630A22C3EDAE007709C7 /* Assets.xcassets */; };
 		0E3E630E22C3EDAE007709C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3E630C22C3EDAE007709C7 /* LaunchScreen.storyboard */; };
 		0E3E631122C3EDAE007709C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E631022C3EDAE007709C7 /* main.m */; };
 		0E3E631B22C3EDAE007709C7 /* flix_vidsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E631A22C3EDAE007709C7 /* flix_vidsTests.m */; };
 		0E3E632622C3EDAE007709C7 /* flix_vidsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E632522C3EDAE007709C7 /* flix_vidsUITests.m */; };
+		0E3E633522C405AF007709C7 /* Movies ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E633422C405AF007709C7 /* Movies ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		0E3E62FE22C3EDAD007709C7 /* flix_vids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix_vids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3E630122C3EDAD007709C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E3E630222C3EDAD007709C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E3E630422C3EDAD007709C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0E3E630522C3EDAD007709C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0E3E630822C3EDAD007709C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E3E630A22C3EDAE007709C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E3E630D22C3EDAE007709C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		0E3E632122C3EDAE007709C7 /* flix_vidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flix_vidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3E632522C3EDAE007709C7 /* flix_vidsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flix_vidsUITests.m; sourceTree = "<group>"; };
 		0E3E632722C3EDAE007709C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3E633322C405AF007709C7 /* Movies ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Movies ViewController.h"; sourceTree = "<group>"; };
+		0E3E633422C405AF007709C7 /* Movies ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Movies ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,11 @@
 		0E3E630022C3EDAD007709C7 /* flix_vids */ = {
 			isa = PBXGroup;
 			children = (
+				0E3E633822C40677007709C7 /* Views */,
+				0E3E633722C4066D007709C7 /* Models */,
+				0E3E633622C40659007709C7 /* ViewControllers */,
 				0E3E630122C3EDAD007709C7 /* AppDelegate.h */,
 				0E3E630222C3EDAD007709C7 /* AppDelegate.m */,
-				0E3E630422C3EDAD007709C7 /* ViewController.h */,
-				0E3E630522C3EDAD007709C7 /* ViewController.m */,
 				0E3E630722C3EDAD007709C7 /* Main.storyboard */,
 				0E3E630A22C3EDAE007709C7 /* Assets.xcassets */,
 				0E3E630C22C3EDAE007709C7 /* LaunchScreen.storyboard */,
@@ -130,6 +131,29 @@
 				0E3E632722C3EDAE007709C7 /* Info.plist */,
 			);
 			path = flix_vidsUITests;
+			sourceTree = "<group>";
+		};
+		0E3E633622C40659007709C7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E3E633422C405AF007709C7 /* Movies ViewController.m */,
+				0E3E633322C405AF007709C7 /* Movies ViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0E3E633722C4066D007709C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E3E633822C40677007709C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E3E630622C3EDAD007709C7 /* ViewController.m in Sources */,
+				0E3E633522C405AF007709C7 /* Movies ViewController.m in Sources */,
 				0E3E631122C3EDAE007709C7 /* main.m in Sources */,
 				0E3E630322C3EDAD007709C7 /* AppDelegate.m in Sources */,
 			);
@@ -434,7 +458,6 @@
 		0E3E632B22C3EDAE007709C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7R4TAWA36;
 				INFOPLIST_FILE = flix_vids/Info.plist;
@@ -451,7 +474,6 @@
 		0E3E632C22C3EDAE007709C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7R4TAWA36;
 				INFOPLIST_FILE = flix_vids/Info.plist;

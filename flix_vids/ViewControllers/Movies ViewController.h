@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Movies ViewController.h
 //  flix_vids
 //
 //  Created by rhaypapenfuzz on 6/26/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface Movies_ViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
